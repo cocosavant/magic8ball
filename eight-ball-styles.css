@@ -1,0 +1,51 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.ball .magic-result-text, .ball .magic-result {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+body {
+  background: steelblue;
+  color: white;
+  font-family: 'arial';
+  font-size: 16px;
+}
+
+.ball {
+  background: black;
+  border-radius: 50%;
+  height: 300px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  width: 300px;
+}
+
+.ball .press-me {
+  background: #f5f5d7;
+  color: black;
+  padding: 10px;
+  position: relative;
+  top: 30px;
+}
+
+.ball .magic-result {
+  color: white;
+  height: 160px;
+  min-width: 200px;
+  overflow: hidden;
+  top: 54%;
+}
+
+.ball .magic-result img {
+  max-height: 180px;
+  max-width: 200px;
+}
+/*# sourceMappingURL=eight-ball-styles.css.map */
